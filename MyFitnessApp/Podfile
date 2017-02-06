@@ -1,0 +1,29 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MyFitnessApp' do
+
+pod 'AFNetworking', ‘2.4.1’
+pod 'SDWebImage', '~>3.8.1'
+pod 'MBProgressHUD', '~> 0.9.1'
+pod 'IQKeyboardManager'
+pod 'MFSideMenu', '~> 0.5'
+pod 'libPhoneNumber-iOS', '~> 0.8'
+pod 'ParseFacebookUtilsV4'
+pod 'Colours'
+pod 'RMDateSelectionViewController'
+pod 'UITextView+Placeholder', '~> 1.2'
+pod "A3ParallaxScrollView", "~> 1.0"
+
+
+  target 'MyFitnessAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MyFitnessAppUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

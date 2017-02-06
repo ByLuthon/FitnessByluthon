@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Family</key>
+	<array>
+		<string>Kids</string>
+		<string>Outdoors</string>
+		<string>Dog</string>
+		<string>Walking</string>
+		<string>Playtime</string>
+		<string>Newborn</string>
+		<string>Kids’ hangout</string>
+		<string>New Mom</string>
+		<string>New Dad</string>
+	</array>
+	<key>Sports</key>
+	<array>
+		<string>Running</string>
+		<string>Cycling</string>
+		<string>Tennis</string>
+		<string>Golf</string>
+		<string>Core</string>
+		<string>Gym</string>
+		<string>Yoga</string>
+		<string>Football</string>
+	</array>
+	<key>Social</key>
+	<array>
+		<string>Fashion</string>
+		<string>Street fashion</string>
+		<string>After Work</string>
+		<string>Beers</string>
+		<string>Smoke</string>
+		<string>Party</string>
+		<string>Movies</string>
+		<string>Shopping</string>
+		<string>Bowling</string>
+		<string>Hangout</string>
+	</array>
+	<key>Outdoors</key>
+	<array>
+		<string>Hiking</string>
+	</array>
+	<key>Creativity</key>
+	<array>
+		<string>Design</string>
+		<string>Art</string>
+		<string>Photography</string>
+		<string>Ideation</string>
+	</array>
+	<key>Education</key>
+	<array>
+		<string>Study buddy</string>
+	</array>
+</dict>
+</plist>

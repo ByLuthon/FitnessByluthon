@@ -1,0 +1,38 @@
+//
+//  MyFitnessApp-PrefixHeader.pch
+//  MyFitnessApp
+//
+//  Created by rlogical-dev-21 on 04/11/16.
+//  Copyright © 2016 rlogical-dev-21. All rights reserved.
+//
+
+#ifndef MyFitnessApp_PrefixHeader_pch
+#define MyFitnessApp_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Parse/Parse.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <ParseFacebookUtilsV4/ParseFacebookUtilsV4.h>
+
+#import "Common.h"
+#import "AFNetworking.h"
+
+#import "GDXSync.h"
+#import "GlobalGDXData.h"
+#import <QuartzCore/QuartzCore.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import "IQKeyboardManager.h"
+#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIButton+WebCache.h>
+#import <CoreLocation/CoreLocation.h>
+
+#import "NBPhoneNumberUtil.h"
+#import "NBPhoneNumber.h"
+#import "Comms.h"
+
+#import "Colours.h"
+
+#endif /* MyFitnessApp_PrefixHeader_pch */
