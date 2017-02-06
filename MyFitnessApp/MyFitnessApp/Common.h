@@ -12,8 +12,6 @@
 #define HEIGHT [[UIScreen mainScreen] bounds].size.height
 
 //----------------------------------------------------------------------------------------------------
-#define BACKTOVCM(VC) NSArray *arrayNavContollers = [self.navigationController viewControllers];  NSMutableArray *arrVC = [[NSMutableArray alloc] init];  for (id controller in arrayNavContollers) { if ([controller isKindOfClass:[VC class]]) { [arrVC addObject:controller]; } }  id controller = [arrVC lastObject];  if ([controller isKindOfClass:[VC class]]) { [self.navigationController popToViewController:controller animated:YES]; }
-
 //----------------------------------------------------------------------------------------------------
 
 #define IS_OS_8_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
